@@ -1,0 +1,28 @@
+.searchLocation {
+  padding-left: 22px;
+}
+
+.searchTitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.searchInput {
+  border: none;
+  font-size: 14px;
+  padding-left: 0px;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.searchButton {
+  border: none;
+  color: #fff;
+  background: #FF385C;
+  width: 50%;
+  height: 90%;
+  border-radius: 50%;
+  margin: auto;
+}
