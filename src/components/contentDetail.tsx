@@ -1,5 +1,6 @@
 import detailStyle from '@/styles/components/detail.module.scss';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import BookingRoom from './bookingRoom';
 
 export default function ContentDetail() {
   return (
@@ -35,7 +36,7 @@ export default function ContentDetail() {
         </div>
       </div>
       <div className='col-sm-5'>
-        <div className={detailStyle.cardBooking}>asdasd</div>
+        <BookingRoom />
       </div>
     </div>
   );
