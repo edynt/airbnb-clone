@@ -3,8 +3,8 @@ import SearchIcon from '@mui/icons-material/Search';
 
 export default function Search() {
   return (
-    <div className='w-100 d-block d-flex justify-content-center mt-3'>
-      <div className='w-50 d-block shadow p-2 bg-white rounded-pill align-items-center'>
+    <div className='w-100 d-block d-flex justify-content-center mt-3 position-sticky top-0'>
+      <div className='d-block shadow p-2 bg-white rounded-pill align-items-center'>
         <div>
           <div className='row'>
             <div className='col-sm-4'>
@@ -51,12 +51,10 @@ export default function Search() {
                       />
                     </div>
                   </div>
-                  <div className='col-sm'>
-                    <div className='position-relative'>
-                      <button className={headerStyle.searchButton}>
-                        <SearchIcon />
-                      </button>
-                    </div>
+                  <div className='col-sm position-relative'>
+                    <button className={headerStyle.searchButton}>
+                      <SearchIcon />
+                    </button>
                   </div>
                 </div>
               </div>

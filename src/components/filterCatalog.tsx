@@ -78,7 +78,10 @@ export default function FilterCatalog() {
         <div className='col-sm-9 position-relative'>
           <div className={styles.scrollView + ' d-flex overflow-auto'}>
             {catalogs.map((catalog, index) => (
-              <div key={index} className={styles.catalogItem}>
+              <div
+                key={index}
+                className={styles.catalogItem + ' ' + (index == 0 ? styles.active : 'false')}
+              >
                 <div>
                   <AddIcon />
                 </div>
