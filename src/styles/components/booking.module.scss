@@ -3,3 +3,22 @@
   font-weight: 700;
   margin-bottom: 1rem;
 }
+
+.subTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.buttonCheckout {
+  width: 100%;
+  border: none;
+  background: radial-gradient(circle at center,#FF385C 0%,#E61E4D 27.5%,#E31C5F 40%,#D70466 57.5%,#BD1E59 75%,#BD1E59 100%);
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px
+}
+
+.blockInfoBooking {
+  width: 80%;
+}

@@ -1,4 +1,5 @@
 import styles from '@/styles/components/detail.module.scss';
+import Link from 'next/link';
 
 export default function BookingRoom() {
   return (
@@ -26,12 +27,12 @@ export default function BookingRoom() {
             </div>
           </div>
 
-          <div className='w-100 text-center mt-3'>
-            <button type='button' className={styles.buttonCheckout}>
+          <div className='w-100 text-center mt-5'>
+            <Link href='/book' className={styles.buttonCheckout}>
               Đặt phòng
-            </button>
+            </Link>
 
-            <p className='mt-3'>Bạn vẫn chưa bị trừ tiền</p>
+            <p className='mt-4'>Bạn vẫn chưa bị trừ tiền</p>
           </div>
           <div className='w-100 mt-5'>
             <div className='row mt-1'>
